@@ -4,6 +4,10 @@
 
 using namespace std;
 
+
+// ====================================================================================
+// PUBLIC MEMBERS
+// ====================================================================================
 bool LineTest::Run() {
 	int n = 1024;
 
@@ -20,11 +24,14 @@ bool LineTest::Run() {
 		power = power << 1;
 	}
 
-	ImgUtils::WriteBMP("Tests/LineTest.bmp", n, n, pixels);
+	ImgUtils::WriteBMP("LineTest.bmp", n, n, pixels);
 
 	return true;
 }
 
+// ====================================================================================
+// PRIVATE MEMBERS
+// ====================================================================================
 void LineTest::addLine(Point start, Point end, vector<vector<Pixel>>& image) {
 	Line line(start, end);
 

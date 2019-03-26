@@ -5,6 +5,9 @@
 
 
 
+// ====================================================================================
+// PUBLIC MEMBERS
+// ====================================================================================
 void ImgUtils::WriteBMP(std::string filename, int w, int h, std::vector<std::vector<Pixel>> pixels)
 {
 	// prepare data

@@ -1,12 +1,15 @@
 #include "pixel.h"
 #define min(x, y) x > y ? y : x;
 
+
+// ====================================================================================
+// PUBLIC MEMBERS
+// ====================================================================================
 Pixel::Pixel() {
 }
 
 Pixel::~Pixel() {
 }
-
 
 void Pixel::Init(unsigned char r, unsigned char g, unsigned char b) {
 	this->red = r;
