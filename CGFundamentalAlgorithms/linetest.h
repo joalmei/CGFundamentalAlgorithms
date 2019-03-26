@@ -5,8 +5,7 @@
 #include "point.h"
 #include <vector>
 
-class LineTest : BaseTest
-{
+class LineTest : BaseTest {
 public:
 	virtual bool Run();
 	

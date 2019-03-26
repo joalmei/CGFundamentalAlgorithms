@@ -1,6 +1,5 @@
 #pragma once
-class Pixel
-{
+class Pixel {
 public:
 	Pixel();
 	~Pixel();

@@ -4,8 +4,7 @@
 #include <vector>
 
 
-class Line
-{
+class Line {
 private:
 	std::vector<Point> values;
 

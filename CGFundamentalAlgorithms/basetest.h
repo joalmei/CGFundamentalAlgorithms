@@ -1,6 +1,5 @@
 #pragma once
-class BaseTest
-{
+class BaseTest {
 public:
 	virtual bool Run() = 0;
 };

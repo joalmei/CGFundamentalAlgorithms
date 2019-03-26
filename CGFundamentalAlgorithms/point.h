@@ -1,6 +1,5 @@
 #pragma once
-class Point
-{
+class Point {
 public:
 	unsigned int x = -1;
 	unsigned int y = -1;
