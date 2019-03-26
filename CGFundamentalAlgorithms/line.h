@@ -7,8 +7,6 @@
 class Line
 {
 private:
-	int minX, maxX;
-	int minY, maxY;
 	std::vector<Point> values;
 
 public:

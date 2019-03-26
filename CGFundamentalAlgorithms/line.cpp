@@ -11,11 +11,6 @@ using namespace std;
 // ====================================================================================
 Line::Line(Point start, Point end) {
 	initValues(start, end);
-
-	minX = start.x;
-	maxX = end.x;
-	minY = start.y;
-	maxY = end.y;
 }
 
 Line::~Line() {
